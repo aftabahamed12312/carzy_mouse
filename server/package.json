@@ -1,0 +1,16 @@
+{
+  "name": "cat-mouse-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env local.js",
+    "start": "node local.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  },
+  "engines": { "node": ">=20" }
+}

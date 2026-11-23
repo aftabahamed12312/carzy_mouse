@@ -1,0 +1,7 @@
+name = "cat-mouse-maze"
+compatibility_date = "2025-01-01"
+
+# Serves the Vite build output as a static site on Cloudflare
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
